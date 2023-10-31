@@ -1,0 +1,110 @@
+/* BASE STYLES ==============================================*/
+html {
+  background-color: #338795;
+  color: #ffffff;
+  font-family: "Corbel";
+}
+h1 {
+  font-family: "Freestyle Script";
+}
+h2 {
+  font-family: "Matura MT Script Capitals";
+}
+h3,
+h4 {
+  font-family: "Impact";
+}
+h5 {
+  font-family: "Freestyle Script";
+}
+h6 {
+  font-family: "Rage";
+}
+/* BUTTON STYLES ============================================*/
+.btn {
+  background-color: #5ee2fd;
+  padding: 40em, 6em;
+  border-radius: 1.5em;
+  border: 0.25em solid #1d1a4a;
+  font-family: "Impact";
+}
+/* CARD COMPONENT STYLES =================================== */
+
+.cards {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.cards-item {
+  padding: 1em;
+}
+
+.card {
+  background-color: #f0f0f0;
+  border-radius: 0.25em;
+  overflow: hidden;
+  width: 300px;
+}
+
+.exhibit-image {
+  background-image: url(../images/pot-3.jpg);
+  width: 100%;
+  height: 200px;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.shop-image {
+  background-image: url(../images/sock-shirt.jpg);
+  width: 100%;
+  height: 200px;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.about-image {
+  background-image: url(../images/applesauce.jpg);
+  width: 100%;
+  height: 200px;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.card-title {
+  font-family: "Impact";
+  font-size: 2em;
+  padding: 1rem 1rem 0 1rem;
+  color: #1d1a4a;
+}
+
+.card-text {
+  padding: 0.5rem 1rem;
+  font-size: 1em;
+  font-family: "Impact";
+  color: #1d1a4a;
+}
+
+.card-content > .btn {
+  padding: 0.25em;
+  border: none;
+  width: 260px;
+  margin: 1rem;
+  font-family: "Impact";
+  font-size: 2em;
+  background-color: #5ee2fd;
+  border-radius: 1.5em;
+  border: 0.14em solid #1d1a4a;
+}
+
+.card-content > .btn:hover {
+  background-color: #338795;
+  transition: 0.2s;
+  transform: translateY(2px) translateX(0);
+}

@@ -26,9 +26,35 @@ h6 {
 
 /* HEADER ===================================================*/
 
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header {
+  background-color: #ffffff;
+}
 header li {
   list-style: none;
   display: inline;
+}
+.banner {
+  width: 60%;
+}
+.logo {
+  width: 40%;
+}
+.nav-links {
+  padding: 28px 0;
+}
+.nav-links li {
+  display: inline-block;
+  margin: 0 15px;
+}
+.nav-links li a {
+  text-decoration: none;
+  color: #1d1a4a;
+  padding: 5px 0;
 }
 
 /* BUTTON STYLES ============================================*/
@@ -49,6 +75,11 @@ header li {
   background-color: #5ee2fd;
   border-radius: 1.5em;
   border: 0.14em solid #1d1a4a;
+}
+.btn:hover {
+  background-color: #338795;
+  transition: 0.2s;
+  transform: translateY(2px) translateX(0);
 }
 
 /* CARD COMPONENT STYLES =================================== */
@@ -135,6 +166,39 @@ header li {
   background-color: #338795;
   transition: 0.2s;
   transform: translateY(2px) translateX(0);
+}
+
+/* EXHIBIT CARD COMPONENT STYLES =========================== */
+.ex-cards-items {
+  display: inline;
+}
+
+.ex-cards {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  column-count: 1;
+  justify-content: space-evenly;
+}
+
+.ex-card-title {
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  font-family: "Impact";
+  font-size: 6em;
+  padding: 1rem 1rem 0 1rem;
+  color: #ffffff;
+}
+
+.ex-card-text {
+  text-align: center;
+  width: 30%;
+  margin: auto;
+  padding: 0.5rem 1rem 1rem 1rem;
+  font-size: 2em;
+  font-family: "Corbel";
+  color: #ffffff;
 }
 
 /* CAROUSEL =================================================*/

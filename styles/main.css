@@ -24,6 +24,21 @@ h6 {
   font-family: "Rage";
 }
 
+.about {
+  padding: 2em;
+}
+
+.about-title {
+  font-family: "Rage";
+  font-size: 6em;
+  text-decoration: underline;
+}
+.abt {
+  margin: auto;
+  font-size: 1.5em;
+  width: 60%;
+  text-align: center;
+}
 /* HEADER ===================================================*/
 
 nav {
@@ -80,6 +95,70 @@ header li {
   background-color: #338795;
   transition: 0.2s;
   transform: translateY(2px) translateX(0);
+}
+
+/* SOCIAL LOGOS ============================================*/
+
+.soc-logos {
+  margin: auto;
+  list-style: none;
+  display: inline;
+  align-items: center;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 60%;
+}
+
+.fb-image {
+  background-image: url(../images/logos/fb.png);
+  width: 100px;
+  height: 100px;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+
+.ig-image {
+  background-image: url(../images/logos/ig.png);
+  width: 100px;
+  height: 100px;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+
+.yt-image {
+  background-image: url(../images/logos/yt.png);
+  width: 100px;
+  height: 100px;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+
+.tw-image {
+  background-image: url(../images/logos/tw.png);
+  width: 100px;
+  height: 100px;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+
+.tbl-image {
+  background-image: url(../images/logos/tbl.jpg);
+  width: 100px;
+  height: 100px;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
 }
 
 /* CARD COMPONENT STYLES =================================== */
@@ -199,6 +278,65 @@ header li {
   font-size: 2em;
   font-family: "Corbel";
   color: #ffffff;
+}
+
+/* SHOP CARDS COMPONENT STYLES ==============================*/
+.shopcards {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.shop-item {
+  padding: 1em;
+}
+
+.sh-card {
+  background-color: #f0f0f0;
+  border-radius: 0.25em;
+  overflow: hidden;
+  width: 300px;
+}
+
+/* FIX THIS PLEASE !!!!!!!!!!!
+.sh-image {
+  height: 300px;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}*/
+
+.sh-title {
+  text-align: left;
+  width: 80%;
+  margin: auto;
+  font-family: "Impact";
+  font-size: 2em;
+  padding: 1rem 1rem 0 1rem;
+  color: #1d1a4a;
+}
+
+.sh-price {
+  text-align: right;
+  width: 80%;
+  margin: auto;
+  font-family: "Impact";
+  font-size: 2em;
+  padding: 1rem 1rem 0 1rem;
+  color: #1d1a4a;
+}
+
+.sh-ex-title {
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  font-family: "Impact";
+  font-size: 2em;
+  padding: 1rem 1rem 0 1rem;
+  color: #1d1a4a;
 }
 
 /* CAROUSEL =================================================*/

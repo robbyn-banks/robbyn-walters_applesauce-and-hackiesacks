@@ -48,6 +48,12 @@ nav {
 }
 header {
   background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header.homepage {
+  background: none;
 }
 header li {
   list-style: none;
@@ -58,6 +64,9 @@ header li {
 }
 .logo {
   width: 40%;
+}
+nav {
+  display: none;
 }
 .nav-links {
   padding: 28px 0;
@@ -96,7 +105,25 @@ header li {
   transition: 0.2s;
   transform: translateY(2px) translateX(0);
 }
-
+.btn-link {
+  padding: 0.25em;
+  border: none;
+  width: 260px;
+  margin: 1rem auto;
+  font-family: "Impact";
+  font-size: 2em;
+  background-color: #5ee2fd;
+  border-radius: 1.5em;
+  border: 0.14em solid #1d1a4a;
+  color: #000;
+  text-decoration: none;
+  display: inline-block;
+}
+.btn-link:hover {
+  background-color: #338795;
+  transition: 0.2s;
+  transform: translateY(2px) translateX(0);
+}
 /* SOCIAL LOGOS ============================================*/
 
 .soc-logos {

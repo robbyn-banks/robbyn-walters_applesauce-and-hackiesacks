@@ -7,46 +7,54 @@
     <link rel="stylesheet" href="./styles/main.css" />
   </head>
   <body>
-    <header>
-      <button>menu</button>
+    <header class="pages">
+      <button><img src="images/icons/1x/menu-dark.png" alt="menu" /></button>
       <nav>
-        <ul class="nav-links">
+        <ul>
           <li><a href="./index.html">Home</a></li>
           <li><a href="./exhibits.html">Exhibits</a></li>
           <li><a href="./shop.html">Shop</a></li>
           <li><a href="./about.html">About/Contact</a></li>
-          <li><a href="./faq.html">FAQs</a></li>
+          <li><a href="./about.html">FAQs</a></li>
         </ul>
       </nav>
       <img
+        class="uptop"
         src="images/transparent-logo.png"
-        alt="Applesauce and Hackiesacks logo"
-        class="logo"
+        alt="Applesauce and Hackiesacks Logo"
       />
-      <button>profile</button>
-      <button>cart</button>
+      <div class="header-icons">
+        <a href="#"
+          ><img src="images/icons/1x/profile-dark.png" alt="profile"
+        /></a>
+        <a href="#"><img src="images/icons/1x/cart-dark.png" alt="cart" /></a>
+      </div>
     </header>
     <main>
-      <div>Exhibits</div>
+      <img class="ex-banner" src="images/exhibits-header.png" alt="Exhibits" />
       <ul class="ex-cards">
         <li class="ex-cards-items">
           <div class="ex-card-content">
             <img src="images/sock-2.jpg" alt="black sock" style="width: 30%" />
-            <div class="ex-card-title">Left Sock</div>
-            <div class="ex-card-text">
-              The left sock is an everyday item worn on the foot. It is used to
-              cushion while walking...
+            <div>
+              <div class="ex-card-title">Left Sock</div>
+              <div class="ex-card-text">
+                The left sock is an everyday item worn on the foot. It is used
+                to cushion while walking...
+              </div>
             </div>
-            <button class="btn"><a href="left-sock.html">View</a></button>
+            <a class="btn-link" href="left-sock.html">View</a>
           </div>
         </li>
         <li class="ex-cards-items">
           <div class="ex-card-content">
-            <button class="btn">View</button>
-            <div class="ex-card-title">Jar Lid</div>
-            <div class="ex-card-text">
-              The jar lid is an everyday item place on a jar. It is used to seal
-              containers...
+            <a class="btn-link" href="jar-lid.html">View</a>
+            <div>
+              <div class="ex-card-title">Jar Lid</div>
+              <div class="ex-card-text">
+                The jar lid is an everyday item place on a jar. It is used to
+                seal containers...
+              </div>
             </div>
             <img
               src="images/jar-1-cropped.jpg"
@@ -62,21 +70,25 @@
               alt="five colorful bread ties"
               style="width: 30%"
             />
-            <div class="ex-card-title">Bread Tie</div>
-            <div class="ex-card-text">
-              The bread tie is an everyday item placed on the bread bag. It is
-              used to seal the bag...
+            <div>
+              <div class="ex-card-title">Bread Tie</div>
+              <div class="ex-card-text">
+                The bread tie is an everyday item placed on the bread bag. It is
+                used to seal the bag...
+              </div>
             </div>
-            <button class="btn">View</button>
+            <a class="btn-link" href="bread-tie.html">View</a>
           </div>
         </li>
         <li class="ex-cards-items">
           <div class="ex-card-content">
-            <button class="btn">View</button>
-            <div class="ex-card-title">Plant Pot</div>
-            <div class="ex-card-text">
-              The plant pot is an everyday item that holds a plant. It is used
-              to keep the plant...
+            <a class="btn-link" href="plant-pot.html">View</a>
+            <div>
+              <div class="ex-card-title">Plant Pot</div>
+              <div class="ex-card-text">
+                The plant pot is an everyday item that holds a plant. It is used
+                to keep the plant...
+              </div>
             </div>
             <img
               src="images/pot-1-cropped.jpg"
@@ -92,12 +104,14 @@
               alt="top of pop can"
               style="width: 30%"
             />
-            <div class="ex-card-title">Pop Tab</div>
-            <div class="ex-card-text">
-              The pop tab is an everyday item placed on top of the pop can. It
-              is used to open the can...
+            <div>
+              <div class="ex-card-title">Pop Tab</div>
+              <div class="ex-card-text">
+                The pop tab is an everyday item placed on top of the pop can. It
+                is used to open the can...
+              </div>
             </div>
-            <button class="btn">View</button>
+            <a class="btn-link" href="pop-tab.html">View</a>
           </div>
         </li>
       </ul>

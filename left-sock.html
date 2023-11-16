@@ -7,41 +7,80 @@
     <link rel="stylesheet" href="./styles/main.css" />
   </head>
   <body>
-    <header>
-      <button>menu</button>
+    <header class="pages">
+      <button><img src="images/icons/1x/menu-dark.png" alt="menu" /></button>
       <nav>
-        <ul class="nav-links">
+        <ul>
           <li><a href="./index.html">Home</a></li>
           <li><a href="./exhibits.html">Exhibits</a></li>
           <li><a href="./shop.html">Shop</a></li>
           <li><a href="./about.html">About/Contact</a></li>
-          <li><a href="./faq.html">FAQs</a></li>
+          <li><a href="./about.html">FAQs</a></li>
         </ul>
       </nav>
       <img
+        class="uptop"
         src="images/transparent-logo.png"
-        alt="Applesauce and Hackiesacks logo"
-        class="logo"
+        alt="Applesauce and Hackiesacks Logo"
       />
-      <button>profile</button>
-      <button>cart</button>
+      <div class="header-icons">
+        <a href="#"
+          ><img src="images/icons/1x/profile-dark.png" alt="profile"
+        /></a>
+        <a href="#"><img src="images/icons/1x/cart-dark.png" alt="cart" /></a>
+      </div>
     </header>
-    <h3>Left Sock</h3>
-    <p>
-      The left sock is an everyday item worn on the foot. It is used to cushion
-      while walking, and keep the foot warm. A left shoe or boot is often worn
-      over the left sock. The left sock was originally made from animal skins,
-      then was later knitted or woven. The hand- making process was extensive,
-      so often on the rich would own a left sock.
-    </p>
-    <img src="images/sock-1.jpg" alt="tan sock" style="width: 20%" />
-    <img src="images/sock-2.jpg" alt="black sock" style="width: 20%" />
-    <img src="images/sock-3.jpg" alt="red sock" style="width: 20%" />
-    <button class="btn">Shop Souvenirs</button>
-    <h1>More Resources</h1>
-    <ul>
-      <li>Socks-Wikipedia</li>
-    </ul>
+    <a class="ex-return" href="exhibits.html"
+      ><img
+        class="ex-ret-arrow"
+        src="images/icons/left-dark.png"
+        alt="Return to" /><img
+        class="ex-ret-img"
+        src="images/exhibits-header.png"
+        alt="Exhibits"
+    /></a>
+    <div class="exhibit-content">
+      <div>
+        <div class="ex-page-title">Left Sock</div>
+        <div class="exhibit-info">
+          The left sock is an everyday item worn on the foot. It is used to
+          cushion while walking, and keep the foot warm. A left shoe or boot is
+          often worn over the left sock. The left sock was originally made from
+          animal skins, then was later knitted or woven. The hand-making process
+          was extensive, so often only the rich would own a left sock.
+        </div>
+      </div>
+      <div>
+        <img src="images/sock-1.jpg" alt="tan sock" style="width: 20%" />
+        <img src="images/sock-2.jpg" alt="black sock" style="width: 20%" />
+        <img src="images/sock-3.jpg" alt="red sock" style="width: 20%" />
+        <a class="btn-link" href="shop.html">Shop Souvenirs</a>
+      </div>
+      <!--
+      <div class="container">
+        <input type="radio" name="slider" id="item-1" checked />
+        <input type="radio" name="slider" id="item-2" />
+        <input type="radio" name="slider" id="item-3" />
+        <div class="exhs">
+          <label class="exh" for="item-1" id="song-1">
+            <img src="images/sock-1.jpg" alt="tan sock" />
+          </label>
+          <label class="exh" for="item-2" id="song-2">
+            <img src="images/sock-2.jpg" alt="black sock" />
+          </label>
+          <label class="exh" for="item-3" id="song-3">
+            <img src="images/sock-3.jpg" alt="red sock" />
+          </label>
+        </div>
+      </div>
+      -->
+    </div>
+    <div>
+      <h1>More Resources</h1>
+      <ul>
+        <li><a href="https://en.wikipedia.org/wiki/Sock">Sock-Wikipedia</a></li>
+      </ul>
+    </div>
     <h1>Similar Exhibits</h1>
     <ul class="shopcards">
       <li class="shop-item">

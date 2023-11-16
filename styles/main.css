@@ -46,6 +46,9 @@ nav {
   align-items: center;
   justify-content: space-between;
 }
+nav {
+  display: none;
+}
 header {
   background-color: #ffffff;
   display: flex;
@@ -55,6 +58,14 @@ header {
 header.homepage {
   background: none;
 }
+.homepage {
+  font-size: 3em;
+  text-decoration: none;
+}
+.uptop {
+  width: 40%;
+}
+
 header li {
   list-style: none;
   display: inline;
@@ -65,9 +76,7 @@ header li {
 .logo {
   width: 40%;
 }
-nav {
-  display: none;
-}
+
 .nav-links {
   padding: 28px 0;
 }
@@ -275,8 +284,13 @@ nav {
 }
 
 /* EXHIBIT CARD COMPONENT STYLES =========================== */
+.ex-banner {
+  width: 60%;
+  padding: 2em;
+}
+
 .ex-cards-items {
-  display: inline;
+  padding: 3em;
 }
 
 .ex-cards {
@@ -299,14 +313,50 @@ nav {
 
 .ex-card-text {
   text-align: center;
-  width: 30%;
+  width: 60%;
   margin: auto;
   padding: 0.5rem 1rem 1rem 1rem;
   font-size: 2em;
   font-family: "Corbel";
   color: #ffffff;
 }
+.ex-card-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
+/* EXHIBIT PAGE FORMATTING ==================================*/
+.ex-return {
+  padding: 2em;
+  align-items: center;
+}
+.ex-ret-arrow {
+  width: 5%;
+}
+.ex-ret-img {
+  padding: 2em;
+  width: 15%;
+}
+
+.exhibit-content {
+  padding: 2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ex-page-title {
+  text-align: left;
+  font-family: Impact;
+  font-size: 4em;
+}
+
+.exhibit-info {
+  font-family: Corbel;
+  text-align: left;
+  font-size: 1.5em;
+}
 /* SHOP CARDS COMPONENT STYLES ==============================*/
 .shopcards {
   list-style: none;
@@ -366,7 +416,9 @@ nav {
   color: #1d1a4a;
 }
 
-/* CAROUSEL =================================================*/
+/* EXHIBIT CAROUSEL =========================================*/
+
+/* HOMEPAGE  CAROUSEL =======================================*/
 
 .carousel body.blue {
   background-color: #428aa6;

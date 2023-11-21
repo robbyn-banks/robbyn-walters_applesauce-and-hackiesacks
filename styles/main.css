@@ -50,9 +50,7 @@ nav {
   align-items: center;
   justify-content: space-between;
 }
-nav {
-  /* display: none; */
-}
+
 header {
   background-color: #ffffff;
   display: flex;
@@ -100,73 +98,6 @@ header li {
 }
 
 /* Hamburger Menu Styles */
-
-/* html {
-  box-sizing: border-box;
-  overflow-x: hidden;
-}
-
-*, *:after, *:before {
-  box-sizing: border-box;
-}
-
-body {
-  min-width: 350px;
-  min-height: 100vh;
-  margin: 0;
-  padding: 0;
-  color: #fff;
-  overflow-x: hidden;
-  background: #232323;
-  background: linear-gradient(45deg, #042461 0%, rgba(225, 5, 34, 0) 70%), linear-gradient(135deg, #340447 10%, rgba(49, 5, 209, 0) 80%), linear-gradient(225deg, #0f053a 10%, rgba(10, 219, 216, 0) 80%), linear-gradient(315deg, #050813 100%, rgba(9, 245, 5, 0) 70%);
-  font-family: "Avenir Next", "Avenir", sans-serif;
-}
-
-.main {
-  position: relative;
-  padding: 60px 30px;
-  width: 100%;
-}
-.main h1 {
-  color: #fff;
-  text-align: center;
-}
-.main .content {
-  margin: 0 auto;
-  width: 100%;
-  max-width: 768px;
-}
-.main .content p {
-  line-height: 1.8;
-  text-align: center;
-}
-
-header {
-  display: flex;
-  justify-content: space-between;
-  flex-flow: row;
-  align-items: center;
-}
-
-footer {
-  position: fixed;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  padding: 30px;
-  color: #fff;
-}
-footer .copyright {
-  text-align: center;
-}
-footer a {
-  color: #1BB76E;
-  text-decoration: none;
-  transition: 0.25s;
-}
-footer a:hover {
-  color: #FF5500;
-} */
 
 .menuToggle {
   display: block;
@@ -238,8 +169,8 @@ footer a:hover {
   padding: 50px;
   padding-top: 125px;
   background: #ededed;
-  list-style-type: none;
-  -webkit-font-smoothing: antialiased;
+  /* list-style-type: none; */
+  /* -webkit-font-smoothing: antialiased; */
   transform-origin: 0% 0%;
   transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
 }
@@ -269,155 +200,6 @@ footer a:hover {
   margin: -100px 0 0 -58px;
   transform: translate(-100%, 0);
 }
-/* 
-.menu--right .menuToggle {
-  position: fixed;
-  right: 0;
-}
-.menu--right .menuToggle input {
-  right: 50px;
-}
-.menu--right .menuToggle span {
-  right: 50px;
-}
-.menu--right .menuItem {
-  right: 0;
-  margin: -100px 0 0 0;
-  transform: translate(100%, 0);
-}
-.menu--right .menuItem li a:hover {
-  padding-left: 5px;
-}
-
-.menu--bottom--right .menuToggle {
-  position: fixed;
-  top: auto;
-  bottom: 0;
-  right: 0;
-  z-index: 1;
-}
-.menu--bottom--right .menuToggle input {
-  right: 50px;
-  bottom: 50px;
-  top: auto;
-}
-.menu--bottom--right .menuToggle input:checked ~ .menuItem {
-  transform: scale(1);
-}
-.menu--bottom--right .menuToggle input:checked ~ .menuItem li:nth-child(1) {
-  -webkit-animation: text-slide-in 0.2s;
-  -moz-animation: text-slide-in 0.2s;
-  animation: text-slide-in 0.2s;
-}
-.menu--bottom--right .menuToggle input:checked ~ .menuItem li:nth-child(2) {
-  -webkit-animation: text-slide-in 0.3s;
-  -moz-animation: text-slide-in 0.3s;
-  animation: text-slide-in 0.3s;
-}
-.menu--bottom--right .menuToggle input:checked ~ .menuItem li:nth-child(3) {
-  -webkit-animation: text-slide-in 0.4s;
-  -moz-animation: text-slide-in 0.4s;
-  animation: text-slide-in 0.4s;
-}
-.menu--bottom--right .menuToggle input:checked ~ .menuItem li:nth-child(4) {
-  -webkit-animation: text-slide-in 0.5s;
-  -moz-animation: text-slide-in 0.5s;
-  animation: text-slide-in 0.5s;
-}
-.menu--bottom--right .menuToggle input:checked ~ .menuItem li:nth-child(5) {
-  -webkit-animation: text-slide-in 0.6s;
-  -moz-animation: text-slide-in 0.6s;
-  animation: text-slide-in 0.6s;
-}
-.menu--bottom--right .menuToggle span {
-  right: 50px;
-  bottom: 50px;
-  top: auto;
-}
-.menu--bottom--right .menuItem {
-  bottom: 0;
-  right: 0;
-  margin: 0;
-  padding-top: 50px;
-  padding-bottom: 125px;
-  transform-origin: bottom right;
-  transform: scale(0);
-  -webkit-transition: -webkit-transform 0.3s, visibility 0s 0s;
-  -moz-transition: -moz-transform 0.3s, visibility 0s 0s;
-  transition: transform 0.3s, visibility 0s 0s;
-}
-.menu--bottom--right .menuItem li {
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-}
-.menu--bottom--right .menuItem li a:hover {
-  padding-left: 5px;
-}
-
-.menu--bottom--left .menuToggle {
-  position: fixed;
-  top: auto;
-  bottom: 0;
-  left: 0;
-  z-index: 1;
-}
-.menu--bottom--left .menuToggle input {
-  left: 50px;
-  bottom: 50px;
-  top: auto;
-}
-.menu--bottom--left .menuToggle input:checked ~ .menuItem {
-  transform: scale(1);
-}
-.menu--bottom--left .menuToggle input:checked ~ .menuItem li:nth-child(1) {
-  -webkit-animation: text-slide-in 0.2s;
-  -moz-animation: text-slide-in 0.2s;
-  animation: text-slide-in 0.2s;
-}
-.menu--bottom--left .menuToggle input:checked ~ .menuItem li:nth-child(2) {
-  -webkit-animation: text-slide-in 0.3s;
-  -moz-animation: text-slide-in 0.3s;
-  animation: text-slide-in 0.3s;
-}
-.menu--bottom--left .menuToggle input:checked ~ .menuItem li:nth-child(3) {
-  -webkit-animation: text-slide-in 0.4s;
-  -moz-animation: text-slide-in 0.4s;
-  animation: text-slide-in 0.4s;
-}
-.menu--bottom--left .menuToggle input:checked ~ .menuItem li:nth-child(4) {
-  -webkit-animation: text-slide-in 0.5s;
-  -moz-animation: text-slide-in 0.5s;
-  animation: text-slide-in 0.5s;
-}
-.menu--bottom--left .menuToggle input:checked ~ .menuItem li:nth-child(5) {
-  -webkit-animation: text-slide-in 0.6s;
-  -moz-animation: text-slide-in 0.6s;
-  animation: text-slide-in 0.6s;
-}
-.menu--bottom--left .menuToggle span {
-  left: 50px;
-  bottom: 50px;
-  top: auto;
-}
-.menu--bottom--left .menuItem {
-  bottom: 0;
-  left: 0;
-  margin: 0;
-  padding-top: 50px;
-  padding-bottom: 125px;
-  transform-origin: bottom left;
-  transform: scale(0);
-  -webkit-transition: -webkit-transform 0.3s, visibility 0s 0s;
-  -moz-transition: -moz-transform 0.3s, visibility 0s 0s;
-  transition: transform 0.3s, visibility 0s 0s;
-}
-.menu--bottom--left .menuItem li {
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-}
-.menu--bottom--left .menuItem li a:hover {
-  padding-left: 5px;
-} */
 
 @keyframes text-slide-in {
   0% {

@@ -108,11 +108,16 @@ header li {
 }
 .menuToggle a {
   text-decoration: none;
-  color: #232323;
+  color: #1d1a4a;
+  font-family: Impact;
+  font-size: 2em;
+  float: left;
+  clear: left;
+  padding: 0.3em;
   transition: all 0.3s ease;
 }
 .menuToggle a:hover {
-  color: tomato;
+  color: #338795;
 }
 .menuToggle input {
   display: block;
@@ -500,7 +505,18 @@ a.styled-link:hover {
   text-align: left;
 }
 /* SHOP CARDS COMPONENT STYLES ==============================*/
+.shop-opts {
+  font-family: "Rage";
+  font-size: 1.5em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: underline;
+  flex-wrap: wrap;
+  list-style: none;
+}
 .shopcards {
+  width: 100%;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -511,6 +527,7 @@ a.styled-link:hover {
 
 .shop-item {
   padding: 1em;
+  width: calc(100% / 4);
 }
 
 .sh-card {
@@ -528,6 +545,11 @@ a.styled-link:hover {
   background-repeat: no-repeat;
 }*/
 
+.sh-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+}
 .sh-title {
   text-align: left;
   width: 80%;
@@ -547,6 +569,16 @@ a.styled-link:hover {
   font-size: 2em;
   padding: 1rem 1rem 0 1rem;
   color: #1d1a4a;
+}
+.sh-old-price {
+  text-align: right;
+  width: 80%;
+  margin: auto;
+  font-family: "Impact";
+  font-size: 2em;
+  padding: 1rem 1rem 0 1rem;
+  text-decoration: line-through;
+  color: #858585;
 }
 
 .sh-ex-title {
